@@ -23,4 +23,5 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.example.nhom6_mini_project_bai2", appContext.getPackageName());
     }
+    /// // fix ui
 }
