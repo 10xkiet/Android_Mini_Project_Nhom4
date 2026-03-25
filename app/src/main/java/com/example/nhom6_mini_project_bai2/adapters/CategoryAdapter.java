@@ -19,7 +19,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
     private List<Category> categories;
     private OnCategoryClickListener listener;
     private int selectedPosition = -1;
-///  fix
+///  fix ui
     public interface OnCategoryClickListener {
         void onCategoryClick(Category category, boolean isSelected);
     }
